@@ -1,7 +1,8 @@
 
 ```
-chmod +x ./envsetup/*.sh
-./envsetup/prepare.sh
+cd envsetup
+chmod +x ./*.sh
+./prepare.sh
 ```
 
 ```

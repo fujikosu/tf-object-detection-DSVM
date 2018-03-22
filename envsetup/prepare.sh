@@ -1,4 +1,4 @@
-source ./envsetup/install.sh
+source ./install.sh
 
 echo 'Preparing environment. Make sure you run with source command'
 
