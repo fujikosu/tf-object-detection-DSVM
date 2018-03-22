@@ -1,0 +1,1 @@
+./1_setup.sh && ./2_test.sh && ./3_virtualenv.sh
