@@ -8,5 +8,5 @@ virtualenv --system-site-packages -p python3 ~/tensorflow-py3ve
 source ~/tensorflow-py3ve/bin/activate
 easy_install -U pip
 pip3 install --upgrade 'tensorflow-gpu==1.5'
-pip3 install git+https://github.com/waleedka/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
+pip3 install -e 'git+https://github.com/pdollar/coco.git#egg=pycocotools&subdirectory=PythonAPI'
 deactivate
